@@ -4,36 +4,45 @@
   import Testimonials from "../components/Testimonials.svelte";
 
 </script>
-<div class="rs-banner banner-style3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="content-wrap">
-                    <span class="sub-title wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">You Want It, We Build It. We Provide The Best Service</span>
-                    <h1 class="title wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                        We Build The Home Of Your Dreams
-                    </h1>
-                    <div class="description wow fadeInLeft2" style="visibility: visible; animation-name: fadeInLeft2;">
-                        <p>
-                            We are dedicated to constructing a brighter tomorrow by delivering high-quality, innovative construction solutions. Our commitment to excellence ensures your satisfaction at every step of the building process.
-                        </p>
-                    </div>
-                    <div class="banner-btn mt-40 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-						<a class="readon more orange-btn2" href="tel:+918925677718">
-							<i class="fas fa-phone-alt"></i> Contact for More Information
-						</a>
-					</div>
-					
+
+
+
+<div class="rs-slider slider-style1">
+    <div class="slider slider-slide-1 slick-initialized slick-slider">
+      
+       
+<div aria-live="polite" class="slick-list draggable">
+    <div class="slick-track" style="opacity: 1; width: 5312px; transform: translate3d(-1328px, 0px, 0px);" role="listbox">
+       <div class="slider-item slide-bg2 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 1328px;" tabindex="-1">
+          <div class="container custom13">
+             <div class="slider-inner">
+                <div class="content-part">
+                   <span class="sl-subtitle wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+                   
+                   Construction Business
+                   </span>
+                   <h1 class="sl-title wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                      We build something<br>
+                      new and consistent.<br>
+                   </h1>
+                   <p class="sl-desc wow fadeInLeft2" style="visibility: visible; animation-name: fadeInLeft2;">
+                      No matter where or what you want to build, we mobilize the right experts<br> 
+                      to drive value and realize your project consistent goals. 		
+                   </p>
+                   <div class="slider-bottom wow fadeinup" style="visibility: visible; animation-name: fadeInUp;">
+                      <a class="readon more" href="contact.html" tabindex="-1">Discover More</a>
+                   </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-images">
-                    <img src="assets/images/banner/style1/img-14.png" alt="Images">
-                </div>
-            </div>
-        </div>
+             </div>
+          </div>
+          
+       </div>
+      
     </div>
-</div>
+ </div>
+    </div>
+ </div>
+ 
 
 
 <ContactEnquire/>
