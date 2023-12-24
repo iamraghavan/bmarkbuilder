@@ -56,7 +56,7 @@ const currentYear = currentDate.getFullYear();
             <div class="row">
                 <div class="col-lg-3 pr-20 md-pr-15 md-mb-20">
                     <div class="footer-logo mb-51 md-mb-30">
-                        <a href="index.html"><img style="
+                        <a href="/"><img style="
                           width: auto;
                           height: 10rem;
                       " src="assets/images/logo-bm.png" alt="bench mark builders"></a>

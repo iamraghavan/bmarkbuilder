@@ -1,51 +1,24 @@
 <script>
   import ContactEnquire from "../components/ContactEnquire.svelte";
+  import HeroSection from "../components/HeroSection.svelte";
+  import InstagramPost from "../components/InstagramPost.svelte";
   import Services from "../components/Services.svelte";
   import Testimonials from "../components/Testimonials.svelte";
+
+
+
 
 </script>
 
 
 
-<div class="rs-slider slider-style1">
-    <div class="slider slider-slide-1 slick-initialized slick-slider">
-      
-       
-<div aria-live="polite" class="slick-list draggable">
-    <div class="slick-track" style="opacity: 1; width: 5312px; transform: translate3d(-1328px, 0px, 0px);" role="listbox">
-       <div class="slider-item slide-bg2 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 1328px;" tabindex="-1">
-          <div class="container custom13">
-             <div class="slider-inner">
-                <div class="content-part">
-                   <span class="sl-subtitle wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
-                   
-                   Construction Business
-                   </span>
-                   <h1 class="sl-title wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                      We build something<br>
-                      new and consistent.<br>
-                   </h1>
-                   <p class="sl-desc wow fadeInLeft2" style="visibility: visible; animation-name: fadeInLeft2;">
-                      No matter where or what you want to build, we mobilize the right experts<br> 
-                      to drive value and realize your project consistent goals. 		
-                   </p>
-                   <div class="slider-bottom wow fadeinup" style="visibility: visible; animation-name: fadeInUp;">
-                      <a class="readon more" href="contact.html" tabindex="-1">Discover More</a>
-                   </div>
-                </div>
-             </div>
-          </div>
-          
-       </div>
-      
-    </div>
- </div>
-    </div>
- </div>
- 
 
 
-<ContactEnquire/>
+<HeroSection title="We Build The Home Of Your Dreams" subtitle="You Want It, We Build It. | We Provide The Best Service" />
+
+
+
+<!-- <ContactEnquire/> -->
 
 <div id="rs-about" class="rs-about about-style3 about-modify1 pt-120 pb-120 md-pt-80 md-pb-80">
     <div class="container">
@@ -139,7 +112,7 @@
                         <div class="rs-counter-list">
                             <div class="count-text">
                                 <div class="count-number">
-                                    <span class="rs-count">35</span> <span class="prefix">+</span>
+                                    <span class="rs-count">5</span> <span class="prefix">+</span>
                                 </div>
                                 <span class="title">Years Experience</span>
                             </div>
@@ -189,5 +162,6 @@
 
 
 <Testimonials/>
+
 
 

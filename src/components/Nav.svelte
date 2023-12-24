@@ -9,6 +9,12 @@
 	  { text: 'Apartment', href: '/apartment' },
 	  { text: 'Villa', href: '/villa' }
 	];
+
+	let bmoptions = [
+		{ text: 'About us', href: '/about'},
+		{ text: 'Media Galley', href: '/media-gallery' },
+		{ text: 'Joint Venture', href: '/joint-venture'},
+	]
   </script>
 
 
@@ -94,7 +100,7 @@
 				<div class="row-table">
 					<div class="col-cell header-logo">                                  
 						<div class="logo-area">
-							<a href="index.html">
+							<a href="/">
 								<img class="normal-logo rectangle-share-logo" src="assets/images/LGLogo2.png" alt="logo">  
 								<img class="sticky-logo rectangle-share-logo" src="assets/images/LGLogo2.png" alt="logo">
 							</a>
@@ -106,11 +112,16 @@
 								<nav class="rs-menu hidden-md">
 									<ul class="nav-menu">
 										<li class=" current-menu-item">
-											<a href="index.html">Home</a>
+											<a href="/">Home</a>
 											
 										</li>
-										<li>
-											<a href="about.html">About us</a>
+										<li class="menu-item-has-children">
+											<a href="about.html">BM Builders</a>
+											<ul class="sub-menu">
+												{#each bmoptions as { text, href }}
+												<li><a href={href}>{text}</a></li>
+											  {/each}
+											</ul>
 										</li>
 										<li class="menu-item-has-children">
 											<a href="services.html">Our Services</a>
@@ -119,6 +130,10 @@
 												<li><a href={href}>{text}</a></li>
 											  {/each}
 											</ul>
+										</li>
+										<li class="">
+											<a href="/">Projects</a>
+											
 										</li>
 										<li class="">
 											<a href="/">Careers</a>
@@ -137,7 +152,7 @@
 						<div class="expand-btn-inner">
 							<ul>
 								
-								<li class="btn-quote"><a class="quote-button" href="/">Let's Talk</a></li>
+								<!-- <li class="btn-quote"><a class="quote-button" href="/">Let's Talk</a></li> -->
 								<li class="humburger">
 									<a style="padding-top: 20px; padding-right: 10px;" id="nav-expander" class="nav-expander bar" href="/">
 										<svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -165,11 +180,11 @@
 			</div>
 			<ul class="nav-menu">
 				<li class=" current-menu-item">
-					<a href="index.html">Home</a>
+					<a href="/">Home</a>
 					
 				</li>
 				<li>
-					<a href="about.html">About us</a>
+					<a href="/about">About us</a>
 				</li>
 				<li class="menu-item-has-children">
 					<a href="/">Our Services</a>
