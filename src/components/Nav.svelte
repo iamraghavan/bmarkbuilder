@@ -1,13 +1,13 @@
 <script>
 	let options = [
-	  { text: 'Architecture', href: '/architecture' },
-	  { text: 'Exterior Design', href: '/exterior-design' },
-	  { text: 'Renovation', href: '/renovation' },
-	  { text: 'Landscape Design', href: '/landscape-design' },
-	  { text: 'Individual House', href: '/individual-house' },
-	  { text: 'Commercial Buildings', href: '/commercial-buildings' },
-	  { text: 'Apartment', href: '/apartment' },
-	  { text: 'Villa', href: '/villa' }
+	  { text: 'Architecture', href: '/services/architecture' },
+	  { text: 'Exterior Design', href: '/services/exterior-design' },
+	  { text: 'Renovation', href: '/services/renovation' },
+	  { text: 'Landscape Design', href: '/services/landscape-design' },
+	  { text: 'Individual House', href: '/services/individual-house' },
+	  { text: 'Commercial Buildings', href: '/services/commercial-buildings' },
+	  { text: 'Apartment', href: '/services/apartment' },
+	  { text: 'Villa', href: '/services/villa' }
 	];
 
 	let bmoptions = [
@@ -132,7 +132,7 @@
 											</ul>
 										</li>
 										<li class="">
-											<a href="/">Projects</a>
+											<a href="/projects/">Projects</a>
 											
 										</li>
 										<li class="">

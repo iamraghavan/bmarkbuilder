@@ -2,6 +2,18 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
+<title>Joint Venture - Imagine your dream home! BenchMark Builders brings it to life.</title>
+
+    <meta name="title" content="Joint Venture - Imagine your dream home! BenchMark Builders brings it to life.">
+<meta name="description" content="Imagine your dream home! BenchMark Builders brings it to life. Trust us for quality construction. Your dream home is just a step away!">
+<meta name="keywords" content="warehouse construction in chennai, construction in chennai, plots for sale in chennai,builders in chennai,plots in chennai,best builders in chennai,top builders in chennai,construction company,building construction,home construction,building company,building construction company in chennai,construction company in chennai,chennai construction ,constructions in chennai">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="2 days">
+<meta name="author" content="Bumble Bees IT Solutions">
+
+
 </svelte:head>
 <script>
 
