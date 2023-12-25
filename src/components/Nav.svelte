@@ -141,7 +141,7 @@
 										</li>
 									
 										<li>
-											<a href="contact.html">Contact us</a>
+											<a href="/effo/login">Contact us</a>
 										</li>
 									</ul> <!-- //.nav-menu -->
 								</nav>
