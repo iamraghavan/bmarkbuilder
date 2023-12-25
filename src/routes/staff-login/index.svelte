@@ -22,7 +22,7 @@
       onAuthStateChanged(auth, (user) => {
         if (user) {
           // User is already authenticated, redirect to the dashboard
-          goto('/admin/create-projects');
+          goto('/staff-login/create-projects');
         }
       });
     });
@@ -44,7 +44,7 @@
 
     // Redirect to dashboard after a delay
     setTimeout(() => {
-      goto('/admin/create-projects');
+      goto('/staff-login/create-projects');
     }, 2000);
   } catch (error) {
     // Show error message with SweetAlert

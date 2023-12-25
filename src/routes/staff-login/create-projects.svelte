@@ -66,7 +66,7 @@ onMount(() => {
   // Check if the user is authenticated
   onAuthStateChanged(auth, (user) => {
     if (!user) {
-      goto('/admin');
+      goto('/staff-login');
     }
   });
 
@@ -102,7 +102,7 @@ onMount(() => {
 
   const handleLogout = async () => {
     await signOut(auth);
-    goto('/admin');
+    goto('/staff-login');
   };
 
   const handleAddProject = async () => {

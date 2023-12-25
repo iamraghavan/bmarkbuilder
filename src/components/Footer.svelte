@@ -17,6 +17,7 @@
 	  { text: 'Career', href: '/renovation' },
 	  { text: 'News & Blog', href: '/landscape-design' },
 	  { text: 'Budget Calculator', href: '/individual-house' },
+    { text: 'admin', href: '/staff-login/' },
   ]
 
   
