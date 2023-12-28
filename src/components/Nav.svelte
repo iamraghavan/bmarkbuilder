@@ -132,7 +132,7 @@
 											</ul>
 										</li>
 										<li class="">
-											<a href="/projects/">Projects</a>
+											<a href="/project">Projects</a>
 											
 										</li>
 										<li class="">
