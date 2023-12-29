@@ -117,7 +117,7 @@
 											
 										</li>
 										<li class="menu-item-has-children">
-											<a href="about.html">BM Builders</a>
+											<a href="/">BM Builders</a>
 											<ul class="sub-menu">
 												{#each bmoptions as { text, href }}
 												<li><a href={href}>{text}</a></li>
@@ -125,7 +125,7 @@
 											</ul>
 										</li>
 										<li class="menu-item-has-children">
-											<a href="services.html">Our Services</a>
+											<a href="/">Our Services</a>
 											<ul class="sub-menu">
 												{#each options as { text, href }}
 												<li><a href={href}>{text}</a></li>
