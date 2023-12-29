@@ -1,13 +1,13 @@
 <script>
     let services = [
-  { title: "Architecture", link: "/architecture", image: "assets/images/BMService/architecture-image.webp" },
-  { title: "Exterior Design", link: "/exterior-design", image: "assets/images/BMService/exterior-design-image.jpg" },
-  { title: "Renovation", link: "/renovation", image: "assets/images/BMService/renovation-image.jpg" },
-  { title: "Landscape Design", link: "/landscape-design", image: "assets/images/BMService/landscape-design-image.jpeg" },
-  { title: "Individual House", link: "/individual-house", image: "assets/images/BMService/individual-house-image.png" },
-  { title: "Commercial Buildings", link: "/commercial-buildings", image: "assets/images/BMService/commercial-buildings-image.png" },
-  { title: "Apartment", link: "/apartment", image: "assets/images/BMService/apartment-image.jpg" },
-  { title: "Villa", link: "/villa", image: "assets/images/BMService/villa-image.jpg" }
+  { title: "Architecture", link: "/services/architecture", image: "assets/images/BMService/architecture-image.webp" },
+  { title: "Exterior Design", link: "/services/exterior-design", image: "assets/images/BMService/exterior-design-image.jpg" },
+  { title: "Renovation", link: "/services/renovation", image: "assets/images/BMService/renovation-image.jpg" },
+  { title: "Landscape Design", link: "/services/landscape-design", image: "assets/images/BMService/landscape-design-image.jpeg" },
+  { title: "Individual House", link: "/services/individual-house", image: "assets/images/BMService/individual-house-image.png" },
+  { title: "Commercial Buildings", link: "/services/commercial-buildings", image: "assets/images/BMService/commercial-buildings-image.png" },
+  { title: "Apartment", link: "/services/apartment", image: "assets/images/BMService/apartment-image.jpg" },
+  { title: "Villa", link: "/services/villa", image: "assets/images/BMService/villa-image.jpg" }
 ];
 
   </script>
