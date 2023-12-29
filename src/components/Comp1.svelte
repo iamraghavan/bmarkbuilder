@@ -1,13 +1,21 @@
+<script>
+    let options = [
+	  { text: 'Architecture', href: '/services/architecture' },
+	  { text: 'Exterior Design', href: '/services/exterior-design' },
+	  { text: 'Renovation', href: '/services/renovation' },
+	  { text: 'Landscape Design', href: '/services/landscape-design' },
+	  { text: 'Individual House', href: '/services/individual-house' },
+	  { text: 'Commercial Buildings', href: '/services/commercial-buildings' },
+	  { text: 'Apartment', href: '/services/apartment' },
+	  { text: 'Villa', href: '/services/villa' }
+	];
+</script>
+
 <div class="col-lg-4 pl-36 md-pl-15">
     <ul class="services-list mb-50">
-        <li><a href="/services/architecture">Architecture</a></li>
-        <li><a href="/">Exterior Design</a></li>
-        <li><a href="/">Renovation</a></li>
-        <li><a href="/">Landscape Design</a></li>
-        <li><a href="/">Individual House</a></li>
-        <li><a href="/">Commercial Buildings</a></li>
-        <li><a href="/">Apartment</a></li>
-        <li><a href="/">Villa</a></li>
+        {#each options as { text, href }}
+		<li><a href={href}>{text}</a></li>
+		{/each}
      </ul>
 
      <div class="services-add mb-50">
