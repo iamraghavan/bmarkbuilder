@@ -199,6 +199,10 @@
 					<a href="/">Careers</a>
 					
 				</li>
+				<li class="">
+					<a href="/project" aria-current="{segment === 'project' ? 'page' : undefined}">Projects</a>
+					
+				</li>
 			
 				<li>
 					<a href="contact.html">Contact us</a>
@@ -232,7 +236,7 @@
 							  <i class="fi fi-rr-phone-call"></i>
 						  </div>
 						  <div class="info-content">
-							  <h4 class="title">Free Call</h4>
+							  <h4 class="title">Call Now</h4>
 							  <em>+91 89256 77718</em>
 						  </div>
 					  </div>
