@@ -153,21 +153,21 @@
 				<div class="contact-icon"><img src="assets/images/contact/style1/icons/1.png" alt="images"></div>
 				<div class="content-text">
 				   <h4 class="title"><a href="/">Chennai office</a></h4>
-				   <p class="services-txt">No. 220, G.S.T Road, J.C. Nagar, Urapakkam, Chennai</p>
+				   <p class="services-txt">Plot No 19, G1 Thamarai Flats, 3rd Street, J.C. Nagar, Urapakkam, Chennai, Tamil Nadu 603210</p>
 				</div>
 			 </div>
 			 <div class="contact-box mb-20">
 				<div class="contact-icon"><img src="assets/images/contact/style1/icons/2.png" alt="images"></div>
 				<div class="content-text">
 				   <h4 class="title"><a href="/">Email us</a></h4>
-				   <p class="services-txt"><a href="mailto:benchmarkbuilders21@gmail.com">benchmarkbuilders21@gmail.com</a><br><a href="mailto:enquiry@benchmarkbuilders21.com">enquiry@benchmarkbuilders21.com</a><br></p>
+				   <p class="services-txt"><a href="mailto:benchmarkbuilders21@gmail.com">benchmarkbuilders21@gmail.com</a></p>
 				</div>
 			 </div>
 			 <div class="contact-box mb-20">
 				<div class="contact-icon"><img src="assets/images/contact/style1/icons/3.png" alt="images"></div>
 				<div class="content-text">
 				   <h4 class="title"><a href="/">Call us</a></h4>
-				   <p class="services-txt"><a href="tel: +91 89256 77718"> +91 89256 77718</a><br><a href="tel:+91 89256 77718">+91 89256 77718</a><br></p>
+				   <p class="services-txt"><a href="tel: +91 89256 77718"> +91 89256 77718</a><br><a href="tel:+91 89256 77719">+91 89256 77719</a><br></p>
 				</div>
 			 </div>
 		  </div>

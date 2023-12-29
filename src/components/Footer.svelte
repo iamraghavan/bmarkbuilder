@@ -30,17 +30,17 @@ const currentYear = currentDate.getFullYear();
   let contactDetails = [
       {
         title: 'Chennai office',
-        address: 'No. 220, G.S.T Road, J.C. Nagar, Urapakkam, Chennai',
+        address: 'Plot No 19, G1 Thamarai Flats, 3rd St, J.C. Nagar, Urapakkam, Chennai, Tamil Nadu 603210',
         icon: 'assets/images/contact/style1/icons/1.png',
       },
       {
         title: 'Email us',
-        emails: ['benchmarkbuilders21@gmail.com', 'enquiry@benchmarkbuilders21.com'],
+        emails: ['benchmarkbuilders21@gmail.com'],
         icon: 'assets/images/contact/style1/icons/2.png',
       },
       {
         title: 'Call us',
-        phoneNumbers: ['+91 89256 77718', '+91 89256 77718'],
+        phoneNumbers: ['+91 89256 77718', '+91 89256 77719'],
         icon: 'assets/images/contact/style1/icons/3.png',
       },
     ];

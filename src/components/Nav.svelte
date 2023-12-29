@@ -1,4 +1,5 @@
 <script>
+	export let segment;
 	let options = [
 	  { text: 'Architecture', href: '/services/architecture' },
 	  { text: 'Exterior Design', href: '/services/exterior-design' },
@@ -112,7 +113,7 @@
 								<nav class="rs-menu hidden-md">
 									<ul class="nav-menu">
 										<li class=" current-menu-item">
-											<a href="/">Home</a>
+											<a aria-current="{segment === undefined ? 'page' : undefined}" href="/">Home</a>
 											
 										</li>
 										<li class="menu-item-has-children">
@@ -132,7 +133,7 @@
 											</ul>
 										</li>
 										<li class="">
-											<a href="/project">Projects</a>
+											<a href="/project" aria-current="{segment === 'project' ? 'page' : undefined}">Projects</a>
 											
 										</li>
 										<li class="">
@@ -141,7 +142,7 @@
 										</li>
 									
 										<li>
-											<a href="/effo/login">Contact us</a>
+											<a aria-current="{segment === "contact" ? 'page' : undefined}" href="/contact">Contact us</a>
 										</li>
 									</ul> <!-- //.nav-menu -->
 								</nav>

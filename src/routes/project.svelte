@@ -110,12 +110,14 @@
     </div>
   </div>
   
-  <div class="rs-project project-style1 gray-bg pt-120 pb-120 md-pt-80 md-pb-80">
-    <div class="container">
-      <div class="row">
-        {#each projects as project (project.id)}
-          <div class="col-lg-6 col-md-6 mb-30">
-            <div class="project-item">
+ <!-- Update the HTML structure for projects -->
+<div class="rs-project project-style1 gray-bg pt-120 pb-120 md-pt-80 md-pb-80">
+  <div class="container">
+    <div class="row">
+      {#each projects as project (project.id)}
+        <div class="col-lg-6 col-md-6 mb-30">
+          <div class="card">
+            <div class="card-body">
               <div class="project-img">
                 {#if project.images && project.images.length > 0}
                   <img src={project.images[0]} alt="Project" on:error={() => console.log('Image failed to load:', project.images[0])}>
@@ -124,50 +126,49 @@
                 {/if}
               </div>
               <div class="project-content">
-                <!-- {project.title} -->
-
-                
                 <div class="project-inner">
-
-                    <h3 class="title">{project.title}</h3>
-                  <table>
-                   
-                    <tr>
-                      <td>Unit Type:</td>
-                      <td>{project.unitType}</td>
-                    </tr>
-                    <tr>
-                      <td>Build Up Area:</td>
-                      <td>{project.buildUpArea}</td>
-                    </tr>
-                    <tr>
-                      <td>Land Approval:</td>
-                      <td>{project.landApproval}</td>
-                    </tr>
-                    <tr>
-                      <td>Landmark:</td>
-                      <td>{project.landmark}</td>
-                    </tr>
-                    <tr>
-                      <td>Highlight:</td>
-                      <td>{project.highlight}</td>
-                    </tr>
-                    <tr>
-                      <td>Location Highlight:</td>
-                      <td>{project.lochighlight}</td>
-                    </tr>
-                    <tr>
-                      <td>Project Status:</td>
-                      <td>{project.projectStatus}</td>
-                    </tr>
+                  <h3 class="card-title">{project.title}</h3>
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Unit Type</th>
+                        <td>{project.unitType}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Build Up Area</th>
+                        <td>{project.buildUpArea}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Land Approval</th>
+                        <td>{project.landApproval}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Landmark</th>
+                        <td>{project.landmark}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Highlight</th>
+                        <td>{project.highlight}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Location Highlight</th>
+                        <td>{project.lochighlight}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Project Status</th>
+                        <td>{project.projectStatus}</td>
+                      </tr>
+                    </tbody>
                   </table>
                 </div>
               </div>
             </div>
           </div>
-        {/each}
-      </div>
+        </div>
+      {/each}
     </div>
   </div>
+</div>
+
   
   
