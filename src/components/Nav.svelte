@@ -74,8 +74,8 @@
 					<div class="col-lg-5">
 						<div class="toolbar-sl-share">
 							<ul class="clearfix">
-								<li class="opening"> <em><i class="fi-rr-map-marker-home"></i> No. 220, G.S.T Road, J.C. Nagar, Urapakkam, Chennai
-								</em> </li>
+								<!-- <li class="opening"> <em><i class="fi-rr-map-marker-home"></i> No. 220, G.S.T Road, J.C. Nagar, Urapakkam, Chennai
+								</em> </li> -->
 					
 								<li><a href="/"><i class="fa fa-whatsapp"></i></a></li>
 								<li><a href="/"><i class="fa fa-instagram"></i></a></li>
@@ -132,15 +132,24 @@
 											  {/each}
 											</ul>
 										</li>
-										<li class="">
+										<!-- <li class="">
 											<a href="/project" aria-current="{segment === 'project' ? 'page' : undefined}">Projects</a>
 											
 										</li>
 										<li class="">
 											<a href="/">Careers</a>
 											
+										</li> -->
+
+										<li class="">
+											<a href="/pricing">Pricing</a>
+											
 										</li>
-									
+										<!-- <li class="">
+											<a href="/blog">Blog</a>
+											
+										</li>
+									 -->
 										<li>
 											<a aria-current="{segment === "contact" ? 'page' : undefined}" href="/contact">Contact us</a>
 										</li>
@@ -195,17 +204,26 @@
 											  {/each}
 					</ul>
 				</li>
-				<li class="">
+				<!-- <li class="">
 					<a href="/">Careers</a>
 					
 				</li>
 				<li class="">
 					<a href="/project" aria-current="{segment === 'project' ? 'page' : undefined}">Projects</a>
 					
+				</li> -->
+
+				<li class="">
+					<a href="/pricing">Pricing</a>
+					
 				</li>
+				<!-- <li class="">
+					<a href="/blog">Blog</a>
+					
+				</li> -->
 			
 				<li>
-					<a href="contact.html">Contact us</a>
+					<a href="/contact" aria-current="{segment === 'contact' ? 'page' : undefined}">Contact us</a>
 				</li>
 			</ul> 
 			<!-- //.nav-menu -->
@@ -213,7 +231,7 @@
 			<!-- //.nav-menu -->
 			<div class="canvas-contact">
 				  <div class="address-area">
-					  <div class="address-list">
+					  <!-- <div class="address-list">
 						  <div class="info-icon">
 							  <i class="fi fi-rr-map-marker-home"></i>
 						  </div>
@@ -221,7 +239,7 @@
 							  <h4 class="title">Contact</h4>
 							  <em>No. 220, G.S.T Road, J.C. Nagar, Urapakkam, Chennai</em>
 						  </div>
-					  </div>
+					  </div> -->
 					  <div class="address-list">
 						  <div class="info-icon">
 							  <i class="fi fi-rr-envelope-plus"></i>

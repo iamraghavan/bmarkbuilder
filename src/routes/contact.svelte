@@ -1,16 +1,69 @@
 <script>
- let name = '';
+  import emailjs from 'emailjs-com';
+  import Swal from 'sweetalert2';
+
+  let name = '';
   let email = '';
   let phone = '';
-  let website = '';
   let message = '';
 
-  function handleSubmit() {
-    // Add your form submission logic here
-    console.log('Form submitted:', { name, email, phone, website, message });
+  async function handleSubmit() {
+    try {
+      // Send form data to email service
+      const templateParams = {
+        name,
+        phone,
+        email,
+        message,
+      };
+
+      const response = await emailjs.send(
+        'service_4qmuoao', // Replace with your EmailJS service ID
+        'template_y1ru6qm', // Replace with your EmailJS template ID
+        templateParams,
+        'LHEzahpPnpyu_0R-s' // Replace with your EmailJS user ID
+      );
+
+      // Check if the email was sent successfully
+      if (response.status === 200) {
+        // Show success message
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent Successfully!',
+          html: 'Our team will contact you as soon as possible. In the meantime, feel free to <a href="tel:+918925677718">call us</a> for immediate assistance.',
+          timer: 3000,
+          showConfirmButton: false,
+          allowOutsideClick: false,
+          allowEscapeKey: false,
+        });
+
+        // Reset form values
+        name = '';
+        email = '';
+        phone = '';
+        message = '';
+      } else {
+        // Show error message
+        Swal.fire({
+          icon: 'error',
+          title: 'Error!',
+          text: 'Oops, something went wrong. Please try again later.',
+        });
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      // Show error message
+      Swal.fire({
+        icon: 'error',
+        title: 'Error!',
+        text: 'Oops, something went wrong. Please try again later.',
+      });
+    }
   }
-export let activePage = "Home";
+
+  export let activePage = "Home";
 </script>
+
 
 
 <div class="rs-breadcrumbs img1">
@@ -49,7 +102,7 @@ export let activePage = "Home";
               <h2 class="title title4 ser-style4">Get in touch</h2>
             </div>
             <div id="form-messages"></div>
-            <form id="contact-form" method="post" action="">
+            <form id="contact-form" method="post"  on:submit|preventDefault={handleSubmit} action="">
               <fieldset>
                 <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
@@ -68,7 +121,7 @@ export let activePage = "Home";
                 </div>
                 <div class="btn-part">
                   <div class="form-group mb-0">
-                    <input on:click={handleSubmit} class="readon more submit sub-con" type="submit" value="Submit Now">
+                    <input class="readon more submit sub-con" type="submit" value="Submit Now">
                   </div>
                 </div>
               </fieldset>
