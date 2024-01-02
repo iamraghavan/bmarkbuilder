@@ -128,7 +128,7 @@
                         <div class="rs-counter-list">
                             <div class="count-text">
                                 <div class="count-number">
-                                    <span class="rs-count">5</span> <span class="prefix">+</span>
+                                    <span class="rs-count">3</span> <span class="prefix">+</span>
                                 </div>
                                 <span class="title">Years Experience</span>
                             </div>
@@ -149,13 +149,13 @@
 	   </div>
 	   <div class="col-lg-4 pr-50 md-pr-15 con-right-6 md-mt-50">
 		  <div class="contact-box-item">
-			 <div class="contact-box mb-20">
+			 <!-- <div class="contact-box mb-20">
 				<div class="contact-icon"><img src="assets/images/contact/style1/icons/1.png" alt="images"></div>
 				<div class="content-text">
 				   <h4 class="title"><a href="/">Chennai office</a></h4>
 				   <p class="services-txt">Plot No 19, G1 Thamarai Flats, 3rd Street, J.C. Nagar, Urapakkam, Chennai, Tamil Nadu 603210</p>
 				</div>
-			 </div>
+			 </div> -->
 			 <div class="contact-box mb-20">
 				<div class="contact-icon"><img src="assets/images/contact/style1/icons/2.png" alt="images"></div>
 				<div class="content-text">

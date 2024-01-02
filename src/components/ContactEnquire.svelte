@@ -86,11 +86,7 @@
                         <input type="text" id="email" name="email" placeholder="Email" required="">
                     </span>
                 </div>
-                <div class="col-lg-4 col-sm-6 md-mb-30">
-                    <span class="wpcf7-form-control-wrap arrow3">
-                        <input type="text" id="your-address" name="your-address" placeholder="Your Address" required="">
-                    </span>
-                </div>
+               
                 <div class="col-lg-4 col-sm-6 md-mb-30">
                     <span class="wpcf73-form-control-wrap">
                         <input type="text" id="query" name="Services" placeholder="Query" required="">

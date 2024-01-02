@@ -69,7 +69,7 @@
       "M Sand - Double Wash",
       "Plastering - P Sand",
       "Asian Paints (Premium)",
-      "Ghana Teak Wood",
+      "Teak Wood I Quality",
       "KAG / Anuj Tiles",
       "HIFI Switch",
       "Parryware Sanitaryware"
@@ -84,7 +84,7 @@
     "M Sand - Triple Wash",
     "Plastering - P Sand",
     "Asian Paints (Royal)",
-    "Ghana Teak Wood",
+    "Teak Wood I Quality",
     "Johnson / Kajaria Tailes",
     "Greatwhite / Anchor Switch",
     "Jaquar Sanitaryware"
@@ -109,16 +109,16 @@
     <div class="container">
       <div class="breadcrumbs-inner">
         <h1 class="page-title">
-          Pricing - Benchmark Builders
+          Free Quote - Benchmark Builders
         </h1>
         <span class="sub-text">
-          Discover our flexible pricing options tailored to meet your construction and design needs.
+          Discover our flexible Quote options tailored to meet your construction and design needs.
         </span>
         <ul class="breadcrumbs-area">
           <li title={`Go to ${activePage}`}>
             <a class:active={activePage === "Home"} href="/">Home</a>
           </li>
-          <li>Pricing</li>
+          <li>Free Quote</li>
         </ul>
       </div>
     </div>
@@ -166,6 +166,12 @@
                       <li>
                         <i class="fa fa-check"></i>
                         <span class="feature-text">Spot lights
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">2 Years Warranty
                          </span>
                       </li>
                   
@@ -230,6 +236,12 @@
                       <li>
                         <i class="fa fa-check"></i>
                         <span class="feature-text">False celieng
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">5 Years Warranty
                          </span>
                       </li>
                   

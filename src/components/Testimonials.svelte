@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="btn-part text-right md-text-center">
-                    <a class="readon more contact" href="tel:+919942502245">Click to call</a>
+                    <a class="readon more contact" href="tel:+91 89256 77718">Click to call</a>
                 </div>
             </div>
         </div>
