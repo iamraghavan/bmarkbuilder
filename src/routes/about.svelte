@@ -26,7 +26,7 @@
           About Us - Benchmark Builders
         </h1>
         <span class="sub-text">
-          We are a team with 20 years of experience, dedicated to providing exceptional services. Our goal is to create dream homes for our clients.
+          We are a team with 3 years of experience, dedicated to providing exceptional services. Our goal is to create dream homes for our clients.
         </span>
         <ul class="breadcrumbs-area">
           <li title={`Go to ${activePage}`}>
