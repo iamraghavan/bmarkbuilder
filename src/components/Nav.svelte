@@ -198,8 +198,13 @@
 					<a href="/">Home</a>
 					
 				</li>
-				<li>
-					<a href="/about">About us</a>
+				<li class="menu-item-has-children">
+					<a href="/">BM Builders</a>
+					<ul class="sub-menu">
+						{#each bmoptions as { text, href }}
+						<li><a href={href}>{text}</a></li>
+					  {/each}
+					</ul>
 				</li>
 				<li class="menu-item-has-children">
 					<a href="/">Our Services</a>
