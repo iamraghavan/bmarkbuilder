@@ -7,7 +7,7 @@
 
   let name = '';
   let phone = '';
-  let whatsapp = '';
+
   let query = '';
 
   const handleSubmit = async () => {
@@ -16,7 +16,7 @@
       const templateParams = {
         name,
         phone,
-        whatsapp,
+      
         query,
       };
 
@@ -64,13 +64,12 @@
     let features = [
       "Cement - Zuari Cement / Dalmia Cement",
       "Steel TMT Bars - ARS 550D TMT Bars",
-      "2 Quality Box Brick",
-      "P Sand",
+      "Quality Brick",
+      
       "M Sand - Double Wash",
       "Plastering - P Sand",
-      "Non Continuous Beam",
       "Asian Paints (Premium)",
-      "Ghana Teak Wood - II Quality",
+      "Ghana Teak Wood",
       "KAG / Anuj Tiles",
       "HIFI Switch",
       "Parryware Sanitaryware"
@@ -80,15 +79,14 @@
     let features2 = [
     "Cement - Coromandel / UltraTech",
     "Steel TMT Bars - iSTEEL XLS TMT Bars",
-    "1 Quality Brick",
-    "P Sand",
+    "Quality Brick",
+
     "M Sand - Triple Wash",
-    "Plastering - River Sand",
-    "Continuous Beam",
+    "Plastering - P Sand",
     "Asian Paints (Royal)",
-    "Ghana Teak Wood - I Quality",
-    "Johnson / Kajaria",
-    "Greatwhite / Anchor",
+    "Ghana Teak Wood",
+    "Johnson / Kajaria Tailes",
+    "Greatwhite / Anchor Switch",
     "Jaquar Sanitaryware"
   ];
 
@@ -144,6 +142,42 @@
                         <span class="pricing-table-currency">₹</span>
                         <span class="pricing-table-period">Per Sq.Ft</span>
                     </div>
+
+                    <ul class="pricing-table-features-list">
+                     
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Septic tank 4000ltr
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Sump tank 4000ltr
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Grill gate
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Spot lights
+                         </span>
+                      </li>
+                  
+                     
+                  </ul>
+                  
+                  
+                  
+
+                    <div class="pricing-table-header">
+                      <h3 class="pricing-table-title">Meterial Specification</h3>
+                  </div>
                     <ul class="pricing-table-features-list">
                       
                             {#each features as feature (feature)}
@@ -164,7 +198,7 @@
             <div class="col-lg-6 col-md-6 md-mb-50">
                 <div class="pricing-table-wrap">
                     <div class="pricing-table-header">
-                        <h3 class="pricing-table-title">Standard</h3>
+                        <h3 class="pricing-table-title">Premium</h3>
                     </div>
                    
                     <div class="pricing-table-price-tag">
@@ -173,6 +207,41 @@
                         <span class="pricing-table-currency">₹</span>
                         <span class="pricing-table-period">Per Sq.Ft</span>
                     </div>
+                    <ul class="pricing-table-features-list">
+                     
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Septic tank 8000ltr
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Sump tank 8000ltr
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">Grill gate
+                         </span>
+                      </li>
+
+                      <li>
+                        <i class="fa fa-check"></i>
+                        <span class="feature-text">False celieng
+                         </span>
+                      </li>
+                  
+                     
+                  </ul>
+                  
+                  
+                  
+
+                    <div class="pricing-table-header">
+                      <h3 class="pricing-table-title">Meterial Specification</h3>
+                  </div>
                     <ul class="pricing-table-features-list">
                         {#each features2 as feature (feature)}
                         <li>
@@ -208,8 +277,7 @@
             <label for="phone">Phone Number:</label>
             <input bind:value={phone} type="tel" id="phone" name="phone" required>
           
-            <label for="whatsapp">WhatsApp Number:</label>
-            <input bind:value={whatsapp} type="tel" id="whatsapp" name="whatsapp">
+          
           
             <label for="query">Query:</label>
             <textarea bind:value={query} id="query" name="query" required></textarea>

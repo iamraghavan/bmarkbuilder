@@ -142,7 +142,7 @@
 										</li> -->
 
 										<li class="">
-											<a href="/pricing">Pricing</a>
+											<a href="/pricing">Free Quote</a>
 											
 										</li>
 										<!-- <li class="">
@@ -214,7 +214,7 @@
 				</li> -->
 
 				<li class="">
-					<a href="/pricing">Pricing</a>
+					<a href="/pricing">Free Quote</a>
 					
 				</li>
 				<!-- <li class="">
