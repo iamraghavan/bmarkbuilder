@@ -58,7 +58,9 @@
                         line-height: 1.6;
                         color: #555; 
                         margin-bottom: 15px;">
-                        Bench Mark Builders stands as a leading architectural and construction firm based in Chennai, India. With over 3 years of experience, our journey began with the vision of our Founder & Chief Executive Officer, Mohamed Ishaq Syed, and the guidance of our Managing Director, R. Karaunainathan.
+                        Bench Mark Builders stands as a leading architectural and construction 
+                        firm based in Chennai, India. With over 3 years of experience,
+                         our journey began with the vision of our Founder & Chief Executive Officer, <b> Mohamed Ishaq Syed</b>, and the guidance of our Managing Director, <b> R. Karaunainathan. </b>
             
                         Over the years, we have excelled in creating innovative and unique designs, ensuring bold execution, and tailoring solutions to meet the diverse requirements of our clients. Our expertise lies in both interior and exterior design, where we blend creativity with functionality to bring your vision to life. We specialize in the techniques and industry involved in the assembly and erection of structures, ensuring top-notch quality in every project.
                     </p>

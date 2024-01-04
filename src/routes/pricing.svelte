@@ -171,7 +171,7 @@
 
                       <li>
                         <i class="fa fa-check"></i>
-                        <span class="feature-text">2 Years Warranty
+                        <span class="feature-text">2 Years Maintenance
                          </span>
                       </li>
                   
@@ -241,7 +241,7 @@
 
                       <li>
                         <i class="fa fa-check"></i>
-                        <span class="feature-text">5 Years Warranty
+                        <span class="feature-text">5 Years Maintenance
                          </span>
                       </li>
                   

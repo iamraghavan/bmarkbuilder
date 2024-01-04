@@ -13,7 +13,7 @@
 
 	let bmoptions = [
 		{ text: 'About us', href: '/about'},
-		{ text: 'Media Galley', href: '/media-gallery' },
+		// { text: 'Media Galley', href: '/media-gallery' },
 		{ text: 'Joint Venture', href: '/joint-venture'},
 	]
   </script>
