@@ -182,7 +182,7 @@
                   
 
                     <div class="pricing-table-header">
-                      <h3 class="pricing-table-title">Meterial Specification</h3>
+                      <h3 class="pricing-table-title">Material specifications</h3>
                   </div>
                     <ul class="pricing-table-features-list">
                       
@@ -252,7 +252,7 @@
                   
 
                     <div class="pricing-table-header">
-                      <h3 class="pricing-table-title">Meterial Specification</h3>
+                      <h3 class="pricing-table-title">Material specifications</h3>
                   </div>
                     <ul class="pricing-table-features-list">
                         {#each features2 as feature (feature)}

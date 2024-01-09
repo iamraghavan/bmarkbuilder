@@ -13096,7 +13096,7 @@ body .search-modal .close:hover {
 	32. Footer Section CSS
 ------------------------------------*/
 .rs-footer.footer-main-home {
-  background-image: url(../images/bg/footer-bg.jpg);
+  background-image: url(../images/footer-bg.jpg);
   background-size: cover;
 }
 .rs-footer.footer-main-home .footer-top {
